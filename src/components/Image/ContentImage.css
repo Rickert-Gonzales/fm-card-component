@@ -1,0 +1,35 @@
+.Container-Card__img {
+   grid-row-start: 1;
+   grid-row-end: 2;
+   grid-column-start: 1;
+   grid-column-end: 3;
+   width: 100%;
+   height: auto;
+}
+
+.ContentImg {
+   width: 100%;
+   height: 100%;
+   /* background-color: hsla(277, 77%, 21%, 0.6); */
+   filter: saturate(2.4);
+   border-radius: 8px 8px 0px 0px;
+}
+
+.Gradient {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 8px 8px 0px 0px;
+   z-index: 1;
+}
+.Color {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0px;
+   background-color: hsla(278, 59%, 32%, 0.7);
+   filter: saturate(0.5);
+   z-index: 2;
+   border-radius: 8px 8px 0px 0px;
+}

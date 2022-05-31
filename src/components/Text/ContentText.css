@@ -1,0 +1,34 @@
+.Container-Card__text {
+   grid-row-start: 2;
+   grid-row-end: 3;
+   grid-column-start: 1;
+   grid-column-end: 3;
+   width: 100%;
+   height: auto;
+}
+.Parrafo-content {
+   margin: 0 auto;
+   width: 80%;
+   margin-bottom: 32px;
+   margin-top: 38px;
+   border-radius: 0px 0px 8px 8px;
+}
+h2 {
+   text-align: center;
+   font-size: 28px;
+   font-weight: 600;
+   font-family: "Inter", sans-serif;
+}
+span {
+   color: hsl(277, 64%, 61%);
+}
+p {
+   width: 91%;
+   margin: 0 auto;
+   margin-top: 18px;
+   font-size: 14px;
+   font-weight: 400;
+   text-align: center;
+   line-height: 1.7;
+   color: hsla(0, 0%, 100%, 0.75);
+}

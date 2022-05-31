@@ -1,0 +1,27 @@
+ul > li {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   list-style: none;
+   margin-bottom: 32px;
+}
+h2,
+p {
+   margin: 0;
+   padding: 0;
+}
+li > h2 {
+   font-weight: 600;
+   font-size: 24px;
+   font-family: "Inter", sans-serif;
+}
+li > p {
+   text-transform: uppercase;
+   font-size: 11px;
+   font-weight: 500;
+   letter-spacing: 2px;
+   color: hsla(0, 0%, 100%, 0.623);
+   /* font-family: "Lexend Deca", sans-serif; */
+   font-family: "Inter", sans-serif;
+   margin: 0;
+}
