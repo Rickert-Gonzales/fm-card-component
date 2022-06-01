@@ -33,3 +33,13 @@
    z-index: 2;
    border-radius: 8px 8px 0px 0px;
 }
+@media only screen and (min-width: 768px) {
+   .Container-Card__img {
+      grid-row-start: 1;
+      grid-row-end: 3;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      width: 100%;
+      height: auto;
+   }
+}

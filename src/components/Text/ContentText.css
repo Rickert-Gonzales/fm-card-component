@@ -32,3 +32,11 @@ p {
    line-height: 1.7;
    color: hsla(0, 0%, 100%, 0.75);
 }
+@media only screen and (min-width: 768px) {
+   .Container-Card__text {
+      grid-row-start: 1;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 2;
+   }
+}
